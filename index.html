@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Table</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" placeholder="Ваше ім'я">
+        <label for="surname">Прізвище:</label>
+        <input type="text" id="surname" placeholder="Ваше прізвище"">
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Ваш email">
+        <button type="button" id="send">Відправити</button>
+        <button type="button" id="edit">Редагувати</button>
+        <button type="button" id="delete">Видалити</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th class="b-none p-10"></th>
+                <th>Ім'я</th>
+                <th>Прізвище</th>
+                <th>Email</th>
+                <th>Дата запису</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td class="p-10 p-ab b-none baseline">
+                	<img src="img/baseline.svg" class="menu">
+                	<ul class="action">
+                    	<li><img src="img/delete.svg"></li>
+                    	<li><img src="img/edit.svg"></li>
+                    	<li><img src="img/check.svg"></li>
+                	</ul>
+                </td>
+                <td>Юра</td>
+                <td>Іваник</td>
+                <td>ivanukyurii@gmail.com</td>
+                <td>23:17 01.29.2019</td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="src.js"></script>
+</body>
+
+</html>

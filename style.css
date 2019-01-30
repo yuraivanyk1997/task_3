@@ -1,0 +1,55 @@
+
+body{
+	min-height: 95vh;
+
+}
+table{
+	margin: 20px auto;
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 80%;
+}
+th,td{
+	border: 1px solid black;
+	padding: 10px 30px;
+	
+}
+
+.v-hidden{
+	visibility: hidden;
+}
+.p-10{
+	padding: 10px;
+}
+.p-ab{
+	position: relative;
+}
+.action{
+	display: none;
+	padding: 0px;
+	list-style: none;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+}
+.b-none{
+	border-bottom-color: white;
+	border-left-color: white;
+	border-top-color: white;
+}
+.action li{
+	background-color: white;
+	transition: background-color 0.3s;
+}
+.action li:hover{
+	background-color: rgb(230, 230, 230);
+}
+.baseline{
+	width: 30px;
+}
+.baseline:hover{
+	background-color: rgb(230, 230, 230);
+}
+#edit, #delete{
+	display: none;
+}
